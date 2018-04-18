@@ -24,7 +24,7 @@ public class Shareable {
 
         public static final int FACEBOOK = 1;
         public static final int TWITTER = 2;
-        public  static final int TUMBLR = 3;
+        public  static final int WHATSAPP = 3;
         public static final int LINKED_IN =4;
         public static final int GOOGLE_PLUS =5;
         public static final int REDDIT = 6;
@@ -137,8 +137,8 @@ public class Shareable {
                 return "twi";
             case Builder.GOOGLE_PLUS:
                 return "plus";
-            case Builder.TUMBLR:
-                return "tumblr";
+            case Builder.WHATSAPP:
+                return "whatsapp";
             case Builder.LINKED_IN:
                 return "linkedin";
             case Builder.EMAIL:
